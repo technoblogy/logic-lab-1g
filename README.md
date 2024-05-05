@@ -1,6 +1,6 @@
 # Logic Lab 1G
 
-Provides a selection of 12 logic gates that you can interconnect with patch cables to make a variety of different logic circuits. This version is implemented with 12 individual logic gates.
+A board that provides 12 logic gates that you can interconnect with patch cables to make a variety of different logic circuits. This version is implemented with 12 individual logic gates.
 
 For more information see <http://www.technoblogy.com/show?4ODG>.
 
