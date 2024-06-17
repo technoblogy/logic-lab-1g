@@ -3819,6 +3819,53 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </package>
 </packages>
 <symbols>
+<symbol name="7408">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
+<text x="-2.54" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I0" x="-5.08" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="I1" x="-5.08" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="7432">
+<wire x1="-2.54" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.5146" y1="5.0678" x2="-2.6158" y2="-5.1305" width="0.4064" layer="94" curve="-180.132589" cap="flat"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I0" x="-5.08" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="I1" x="-5.08" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="O" x="5.08" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="7402">
+<wire x1="-2.54" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.4064" layer="94" curve="180" cap="flat"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
+<pin name="I0" x="-5.08" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="I1" x="-5.08" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+</symbol>
+<symbol name="7486">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
+<wire x1="1.778" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.016" y="-1.016" size="2.54" layer="94">e</text>
+<pin name="I0" x="-5.08" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="I1" x="-5.08" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="O" x="5.08" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+</symbol>
 <symbol name="7400">
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
@@ -3837,6 +3884,154 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="74*1G08" prefix="IC">
+<description>2-input &lt;b&gt;AND&lt;/b&gt; gate</description>
+<gates>
+<gate name="A" symbol="7408" x="20.32" y="0"/>
+<gate name="P" symbol="PWRN" x="2.54" y="-7.62" addlevel="request"/>
+</gates>
+<devices>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+<device name="DCK" package="SC70-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G32" prefix="IC">
+<description>2-input &lt;b&gt;OR&lt;/b&gt; gate</description>
+<gates>
+<gate name="A" symbol="7432" x="15.24" y="5.08"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="AUC"/>
+</technologies>
+</device>
+<device name="DCK" package="SC70-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="AUC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G02" prefix="IC">
+<description>2-input &lt;b&gt;NOR&lt;/b&gt; gate</description>
+<gates>
+<gate name="A" symbol="7402" x="12.7" y="5.08"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+<device name="DCK" package="SC70-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+<technology name="AHCT"/>
+<technology name="AUC"/>
+<technology name="LVC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*1G86" prefix="IC">
+<description>2-input &lt;b&gt;EXCLUSIV-OR&lt;/b&gt; gate</description>
+<gates>
+<gate name="A" symbol="7486" x="20.32" y="0" swaplevel="1"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="2.54" addlevel="request"/>
+</gates>
+<devices>
+<device name="DBV" package="SOT23-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+</technologies>
+</device>
+<device name="DCK" package="SC70-5">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="AHC"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="74*1G00" prefix="IC">
 <description>2-input &lt;b&gt;NAND&lt;/b&gt; gate</description>
 <gates>
@@ -4350,16 +4545,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="adafruit" deviceset="1X4" device="-BIG"/>
 <part name="J1" library="adafruit" deviceset="1X4" device="-BIG"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="B340A"/>
-<part name="IC1" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC2" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
+<part name="IC1" library="74xx-little-de" deviceset="74*1G08" device="DBV" technology="AHC"/>
+<part name="IC2" library="74xx-little-de" deviceset="74*1G08" device="DBV" technology="AHC"/>
 <part name="IC3" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
 <part name="IC4" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC5" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC6" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC7" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC8" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC9" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
-<part name="IC10" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
+<part name="IC5" library="74xx-little-de" deviceset="74*1G32" device="DBV" technology="AHC"/>
+<part name="IC6" library="74xx-little-de" deviceset="74*1G32" device="DBV" technology="AHC"/>
+<part name="IC7" library="74xx-little-de" deviceset="74*1G02" device="DBV" technology="AHC"/>
+<part name="IC8" library="74xx-little-de" deviceset="74*1G02" device="DBV" technology="AHC"/>
+<part name="IC9" library="74xx-little-de" deviceset="74*1G86" device="DBV" technology="AHC"/>
+<part name="IC10" library="74xx-little-de" deviceset="74*1G86" device="DBV" technology="AHC"/>
 <part name="IC11" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
 <part name="IC12" library="74xx-little-de" deviceset="74*1G00" device="DBV" technology="AHC"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
@@ -5498,7 +5693,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="IC5" gate="A" pin="O"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -5524,7 +5719,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$54" class="0">
 <segment>
 <pinref part="IC6" gate="A" pin="O"/>
-<wire x1="121.92" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5588,14 +5783,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="IC9" gate="A" pin="O"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="IC10" gate="A" pin="O"/>
 <pinref part="R40" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">

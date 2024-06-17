@@ -1385,10 +1385,10 @@ design rules under a new name.</description>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="11.1125" y="81.28" smashed="yes" rot="MR270">
 <attribute name="PROD_ID" value="DIO-09886" x="11.1125" y="81.28" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="IC1" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="35.56" y="71.12" smashed="yes" rot="MR90">
+<element name="IC1" library="74xx-little-de" package="SOT23-5" value="74AHC1G08DBV" x="35.56" y="71.12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="36.83" y="73.66" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC2" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="35.56" y="53.34" smashed="yes" rot="MR90">
+<element name="IC2" library="74xx-little-de" package="SOT23-5" value="74AHC1G08DBV" x="35.56" y="53.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="36.83" y="55.88" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="IC3" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="35.56" y="35.56" smashed="yes" rot="MR90">
@@ -1397,22 +1397,22 @@ design rules under a new name.</description>
 <element name="IC4" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="35.56" y="17.78" smashed="yes" rot="MR90">
 <attribute name="NAME" x="36.83" y="20.32" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC5" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="69.85" y="71.12" smashed="yes" rot="MR90">
+<element name="IC5" library="74xx-little-de" package="SOT23-5" value="74AHC1G32DBV" x="69.85" y="71.12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="71.12" y="73.66" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC6" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="69.85" y="53.34" smashed="yes" rot="MR90">
+<element name="IC6" library="74xx-little-de" package="SOT23-5" value="74AHC1G32DBV" x="69.85" y="53.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="71.12" y="55.88" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC7" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="69.85" y="35.56" smashed="yes" rot="MR90">
+<element name="IC7" library="74xx-little-de" package="SOT23-5" value="74AHC1G02DBV" x="69.85" y="35.56" smashed="yes" rot="MR90">
 <attribute name="NAME" x="71.12" y="38.1" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC8" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="69.85" y="17.78" smashed="yes" rot="MR90">
+<element name="IC8" library="74xx-little-de" package="SOT23-5" value="74AHC1G02DBV" x="69.85" y="17.78" smashed="yes" rot="MR90">
 <attribute name="NAME" x="71.12" y="20.32" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC9" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="104.14" y="71.12" smashed="yes" rot="MR90">
+<element name="IC9" library="74xx-little-de" package="SOT23-5" value="74AHC1G86DBV" x="104.14" y="71.12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="105.41" y="73.66" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="IC10" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="104.14" y="53.34" smashed="yes" rot="MR90">
+<element name="IC10" library="74xx-little-de" package="SOT23-5" value="74AHC1G86DBV" x="104.14" y="53.34" smashed="yes" rot="MR90">
 <attribute name="NAME" x="106.68" y="55.88" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="IC11" library="74xx-little-de" package="SOT23-5" value="74AHC1G00DBV" x="104.14" y="35.56" smashed="yes" rot="MR90">
